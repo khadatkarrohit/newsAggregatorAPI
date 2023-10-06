@@ -8,7 +8,7 @@ const axios = require('axios');
 /* Get all article witohut user preferences */
 router.get('/',  async (req, res, next) => {     
 
-    const url = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=d6636cd3dc3d4e05a6878093ebb20d48';
+    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey='your_newAPI_Key'`;
     const news_get = await axios({method: 'get',url: url}).then(function (response) {
           return {status: response.data.status, totalResults: response.data.totalResults, articles: response.data.articles}
     });    
@@ -19,7 +19,7 @@ router.get('/',  async (req, res, next) => {
 router.post('/search',  async (req, res, next) => {     
     let search = req.body.search
 
-    const url = `http://newsapi.org/v2/everything?q=${search}&apiKey=d6636cd3dc3d4e05a6878093ebb20d48`
+    const url = `http://newsapi.org/v2/everything?q=${search}&apiKey='your_newAPI_Key'`
     const news_get = await axios({method: 'get',url: url}).then(function (response) {
           return {status: response.data.status, totalResults: response.data.totalResults, articles: response.data.articles}
     });    
@@ -48,7 +48,7 @@ router.get('/news',  async (req, res, next) => {
     let loggedInUserEmail = req.user.email;    
     let user_pref = preferences.filter((el) => el.email == loggedInUserEmail)
     let searchPref = user_pref[0].preferences
-    const url = `http://newsapi.org/v2/everything?q=${searchPref}&apiKey=d6636cd3dc3d4e05a6878093ebb20d48`
+    const url = `http://newsapi.org/v2/everything?q=${searchPref}&apiKey='your_newAPI_Key'`
     const news_get = await axios({method: 'get',url: url}).then(function (response) {
           return {status: response.data.status, totalResults: response.data.totalResults, articles: response.data.articles}
     });    
