@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1, 
+        "email": "ravi@gmail.com",
+        "preferences": "cricket"                            
+    },
+    {
+        "id": 2, 
+        "email": "sameer@gmail.com",
+        "preferences": "politics"                      
+    }       
+]

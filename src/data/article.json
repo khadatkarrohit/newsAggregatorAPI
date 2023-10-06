@@ -1,0 +1,105 @@
+[
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "id":1,
+        "read": false,
+        "favorites": false,
+        "email": "ravi@gmail.com", 
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Cricket World Cup: Why India's pace attack is its strength",
+        "description": "Many see the World Cup as a battle between pace attacks. In that case, India hold their own comfortably.",
+        "url": "https://www.bbc.co.uk/news/world-asia-india-66892879",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/13A08/production/_131229308_gettyimages-1660047737-594x594.jpg",
+        "publishedAt": "2023-09-28T23:37:07Z",
+        "content": "When India first won the cricket World Cup in 1983, its bowlers were mainly all-rounders. \r\nMany were called 'bits-and-pieces' cricketers (who could bowl a bit and bat a bit), but with a couple of ex… [+4623 chars]"
+    },
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "id":2,
+        "read": false,
+        "favorites": true,
+        "email": "ravi@gmail.com",
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Cricket World Cup 2023: India's highs and lows in World Cup cricket",
+        "description": "The country had some magical moments but also many heartbreaks in World Cup cricket in over 48 years.",
+        "url": "https://www.bbc.co.uk/news/world-asia-india-66740862",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2DA2/production/_131228611_gettyimages-1212866905-594x594.jpg",
+        "publishedAt": "2023-09-29T23:07:13Z",
+        "content": "India's victory in the 1983 Cricket World Cup is still seen as one of the greatest upsets in the history of sport.\r\nAt the time, India were considered to be a lost cause in one-day international cric… [+9030 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "id":3,
+        "read": false,
+        "favorites": false,
+        "email": "ravi@gmail.com",
+        "author": "msmash",
+        "title": "NFT Startup Rario Founders To Leave a Year After $120M Funding",
+        "description": "Founders of Rario, the cricket NFT startup in which India's Dream11 led a $120 million funding round last year, are leaving the two-year-old firm, TechCrunch reported Friday, citing people familiar with the matter. From the report: Ankit Wadhwa, who serves as…",
+        "url": "https://slashdot.org/story/23/09/08/1412226/nft-startup-rario-founders-to-leave-a-year-after-120m-funding",
+        "urlToImage": "https://a.fsdn.com/sd/topics/business_64.png",
+        "publishedAt": "2023-09-08T15:08:00Z",
+        "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "The Atlantic"
+        },
+        "id":4,
+        "read": true,
+        "favorites": true,
+        "email": "sameer@gmail.com",
+        "author": "Alan Taylor",
+        "title": "Photos of the Week: Smart Lander, Elephant Puppet, Zozobra Burning",
+        "description": "The World Tango Championship in Argentina, devastating floods in Greece, a buffalo police patrol in Brazil, a muddy mess at the Burning Man Festival, and much more",
+        "url": "https://www.theatlantic.com/photo/2023/09/photos-of-the-week-smart-lander-elephant-puppet-zozobra-burning/675254/?utm_source=feed",
+        "urlToImage": null,
+        "publishedAt": "2023-09-08T04:30:00Z",
+        "content": "The World Tango Championship in Argentina, devastating floods in Greece, a scene from the 80th Venice Film Festival, a cricket game in Afghanistan, a light festival in South Africa, a buffalo police … [+72 chars]"
+    },
+    {
+        "source": {
+            "id": "ars-technica",
+            "name": "Ars Technica"
+        },
+        "id":5,
+        "read": false,
+        "favorites": true,
+        "email": "sameer@gmail.com",
+        "author": "Scharon Harding",
+        "title": "Losing subscribers, Disney+ starts fighting password sharing, too",
+        "description": "The enforcement is starting with Canada.",
+        "url": "https://arstechnica.com/gadgets/2023/09/disney-starts-crackdown-on-significant-amount-of-password-sharing/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/GettyImages-1238248875-760x380.jpg",
+        "publishedAt": "2023-09-28T20:13:27Z",
+        "content": "46 with \r\nLike Netflix, Disney+ is getting more stringent about sharing account login information. Disney+'s subscriber agreement already says users can't share account information, but the streaming… [+2972 chars]"
+    },
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "id":6,
+        "read": true,
+        "favorites": true,
+        "email": "sameer@gmail.com",
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Six dead and 15 trapped in Zimbabwe gold mine collapse",
+        "description": "Rescue efforts are under way to reach those who became trapped when a shaft at a gold mine collapsed.",
+        "url": "https://www.bbc.co.uk/news/world-africa-66968026",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16476/production/_105645219_gettyimages-920508360.jpg",
+        "publishedAt": "2023-09-30T02:52:01Z",
+        "content": "Six people have died and 15 others are trapped, after a mine shaft collapsed in Zimbabwe, state media report.\r\nThe collapse of Bay Horse gold mine in Chegutu, 100km (62 miles) west of the capital Har… [+751 chars]"
+    }    
+]
+    

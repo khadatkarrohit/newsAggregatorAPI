@@ -1,0 +1,20 @@
+[
+    {
+        "first_name": "Ravi",
+        "last_name": "Kumar",
+        "id": 1, 
+        "email": "ravi@gmail.com",
+        "created_at": "2023-09-24T03:08:24+05:30",
+        "password": "$2b$10$yZen.jfCLuPZFpYcTOe06u2xwYWVnrDOW.naJVmP0GnKTeRJkNSK.",
+        "mobile": 9723456789                     
+    },
+    {
+        "first_name": "Sameer",
+        "last_name": "K",
+        "id": 2, 
+        "email": "sameer@gmail.com",
+        "created_at": "2023-09-20T03:08:24+05:30",
+        "password": "$2b$10$yZen.jfCLuPZFpYcTOe06ukCTotB1UCp0E//tSc1TJ9gETJXyXhVC",
+        "mobile": 1234567890                      
+    }       
+]

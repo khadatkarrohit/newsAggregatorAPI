@@ -1,0 +1,35 @@
+{
+  "name": "newsaggregatorapi",
+  "version": "1.0.0",
+  "description": "We will create a RESTful API using Node.js, Express.js, and NPM packages. The API will allow users to register, log in, and set their news preferences. The API will then fetch news articles from multiple sources using external news APIs (e.g., NewsAPI). The fetched articles should be processed and filtered asynchronously based on user preferences.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadatkarrohit/newsAggregatorAPI.git"
+  },
+  "author": "Rohit Khadaktar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khadatkarrohit/newsAggregatorAPI/issues"
+  },
+  "homepage": "https://github.com/khadatkarrohit/newsAggregatorAPI#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "newsapi": "^2.4.1",
+    "node-input-validator": "^4.5.1",
+    "nodemon": "^3.0.1"
+  }
+}
