@@ -4,8 +4,10 @@
   "description": "We will create a RESTful API using Node.js, Express.js, and NPM packages. The API will allow users to register, log in, and set their news preferences. The API will then fetch news articles from multiple sources using external news APIs (e.g., NewsAPI). The fetched articles should be processed and filtered asynchronously based on user preferences.",
   "main": "index.js",
   "scripts": {
+    "test": "mocha",
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "redis": "redis-server"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,12 @@
     "morgan": "^1.10.0",
     "newsapi": "^2.4.1",
     "node-input-validator": "^4.5.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "redis": "^4.6.10",
+    "redis-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "expect": "^29.7.0",
+    "supertest": "^6.3.3"
   }
 }

@@ -5,15 +5,31 @@ const preferences = require('../data/users_news_preferences.json');
 const article = require('../data/article.json');
 const axios = require('axios');
 
-/* Get all article witohut user preferences */
-router.get('/',  async (req, res, next) => {     
+// // Create Redis Client
+// const createClient = require('redis');
 
-    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey='your_newAPI_Key'`;
-    const news_get = await axios({method: 'get',url: url}).then(function (response) {
-          return {status: response.data.status, totalResults: response.data.totalResults, articles: response.data.articles}
-    });    
-    res.status(200).send(news_get);
-});
+// const client = createClient.createClient();
+// client.on("error", (err) => console.log("Redis Client Error", err));
+// const connect = async () => {
+//   try {
+//     await client.connect();
+//     console.log("Connected to Redis");
+//   } catch (error) {
+//     console.log("Error connecting to Redis", error);
+//   }
+// };
+// connect();
+
+
+/* Get all article witohut user preferences */
+router.get('/',  async (req, res, next) => {   
+    
+        const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey='your_newAPI_Key'`;
+const news_get = await axios({method: 'get',url: url}).then(function (response) {
+                return {status: response.data.status, totalResults: response.data.totalResults, articles: response.data.articles}
+          });
+        res.status(200).send(news_get);
+    });
 
 /* Get all article as per search Keyword post by user */
 router.post('/search',  async (req, res, next) => {     
